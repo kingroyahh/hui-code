@@ -2,13 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Skill : MonoBehaviour {
+public class Skill
+{
 
-	void Start () {
-	
-	}
-	
-	void Update () {
-	
-	}
+    private string id;
+    public string Id 
+    {
+        get
+        {
+            return id;
+        }
+        set
+        {
+            id = value;
+        }
+    }
 }
