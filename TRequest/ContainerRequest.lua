@@ -1,9 +1,8 @@
-
+--容器基类
 local ContainerRequest = class("TRequest.ContainerRequest", require("TRequest.TRequest"))
-
 local super = ContainerRequest.super
 
-local TEnum = class("TRequest.TEnum")
+local TEnum = require("TRequest.TEnum")
 
 function ContainerRequst:ctor(param)
     -- body

@@ -1,7 +1,7 @@
-
+--基类
 local TRequest = class("TRequest.TRequest")
 
-local TEnum = class("TRequest.TEnum")
+local TEnum = require("TRequest.TEnum")
 
 function TRequest:ctor()
     -- init
